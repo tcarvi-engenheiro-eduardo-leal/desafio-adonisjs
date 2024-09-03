@@ -1,7 +1,9 @@
-package-lock.json
+starwars-api/package-lock.json
+starwars-front/package-lock.json
 
 # Node modules
-node_modules
+starwars-api/node_modules
+starwars-front/node_modules
 
 # Adonis directory for storing tmp files
 tmp

@@ -47,10 +47,10 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Star Wars Characters</h1>
+      <h1>Personagens de Star Wars</h1>
       <SearchBar onSearch={searchCharacters} />
 
-      <h2>Character List</h2>
+      <h2>Retorno da Pesquisa:</h2>
       {characters.map((character) => (
         <div key={character.url}>
           <p>{character.name}</p>
@@ -58,7 +58,7 @@ const App = () => {
         </div>
       ))}
 
-      <h2>Favorites</h2>
+      <h2>Favoritos:</h2>
       {favorites.map((favorite) => (
         <div key={favorite.url}>
           <p>{favorite.name}</p>
