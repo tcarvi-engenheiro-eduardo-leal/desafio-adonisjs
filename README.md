@@ -8,7 +8,7 @@
     - grava, em banco de dados in-memory, parâmetro de favoritado, para os personagens.
 ## Configuração
 - Há CONTRIBUTING para recriar projetos FRONT e BACK.
-- Mas, para execução sem a recriação, siga os seguintes passos (mac):
+- Para instalação e execução, sem a recriação, siga os seguintes passos (mac):
 
 ## Configuração do ambiente de execução
 ```bash  
