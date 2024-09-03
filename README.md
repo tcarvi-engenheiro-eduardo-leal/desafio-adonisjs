@@ -1,11 +1,15 @@
 # desafio-adonisjs
 
 ## Descrição do projeto
-- Projeto fullstack WEB ainda incompleto, mas com design terminado.
+- Projeto fullstack WEB ainda bastante incompleto, mas com design geral terminado.
 - Projeto starwars-api:
     - consulta servidor https://swapi.dev/ e recebe personagens de Star Wars.
-    - gera lista de personagens devido parâmetro de ter sido favoritado
-    - grava, em banco de dados in-memory, parâmetro de favoritado, para os personagens.
+    - Ainda falta:
+        - Gravar informação de favoritos em banco de dados local redis
+        - Gerar lista de personagens devido parâmetro de ter sido favoritado
+        - Definir contratos mais claros entre FRONT, api-server e Back-END
+        - Ainda Precisaria de 5 dias dedicados, principalmente para a análise dos contratos.
+        - Também preciso de 1 dia ou mais para ajustar dependências, de forma a não haver erros devido versões do NodeJs e do AdonisJs.
 ## Configuração
 - Há CONTRIBUTING para recriar projetos FRONT e BACK.
 - Para instalação e execução, sem a recriação, siga os seguintes passos (mac):
@@ -45,7 +49,7 @@ cd ../starwars-front
 npm install
 ```  
 
-## Configure variáveis usadas para acesso ao Banco de Dados redis
+## Escreva conteúdo do arquivo .env local
 ```txt title="Arquivo .env"
 HOST=127.0.0.1
 PORT=3333
@@ -91,4 +95,5 @@ npm run start
 ```  
 
 ## Utilização
-- Não terminei ainda a ligação entre componentes, pois passei a receber erro de CORS.
+- Não terminei ainda a ligação entre o Front e o Back, pois passei a receber erro de CORS e ainda não configurei redis local.
+- Ainda falta muito a implementar. Comecei a implementação deste projeto na tarde de 1/09/2024.
