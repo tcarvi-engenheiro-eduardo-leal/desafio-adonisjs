@@ -1,0 +1,4 @@
+starwars-front/node_modules/
+starwars-front/package-lock.json
+starwars-api/node_modules/
+starwars-api/package-lock.json
