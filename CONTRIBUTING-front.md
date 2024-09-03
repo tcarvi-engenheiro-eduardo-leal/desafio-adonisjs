@@ -31,7 +31,7 @@ npx create-react-app starwars-front
 cd starwars-front
 ``` 
 
-## Instale dependências
+## Instale dependência adicional
 ```bash  
 npm install axios
 ```  

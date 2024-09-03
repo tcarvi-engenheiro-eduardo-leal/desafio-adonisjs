@@ -32,7 +32,7 @@ adonis new starwars-api --api-only
 cd starwars-api
 ```  
 
-## Instale dependências
+## Instale dependências adicionais
 ```bash  
 npm install ioredis @adonisjs/redis axios
 ```  
