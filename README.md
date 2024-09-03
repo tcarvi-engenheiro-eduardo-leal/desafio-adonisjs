@@ -101,6 +101,7 @@ npm run start
     - http://127.0.0.1:3333/people/2
     - http://127.0.0.1:3333/people/3
     - http://127.0.0.1:3333/people/4
+    - http://127.0.0.1:3000/
 - Não terminei ainda a ligação entre o Front, o REST-API o Back, pois:
     -  passei a receber erro de CORS
     -  ainda não configurei redis local
