@@ -1,4 +1,13 @@
-starwars-front/node_modules/
-starwars-front/package-lock.json
-starwars-api/node_modules/
-starwars-api/package-lock.json
+package-lock.json
+
+# Node modules
+node_modules
+
+# Adonis directory for storing tmp files
+tmp
+
+# Environment variables, never commit this file
+.env
+
+# The development sqlite file
+database/*.sqlite
