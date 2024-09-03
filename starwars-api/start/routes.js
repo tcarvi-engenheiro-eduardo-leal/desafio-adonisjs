@@ -22,5 +22,6 @@ Route.get('/', () => {
 
 Route.get('people', 'PeopleController.index')
 Route.get('people/:id', 'PeopleController.show')
+Route.get('/people/search', 'PeopleController.search')
 Route.post('people/:id/favorite', 'PeopleController.favorite')
 Route.get('people/favorites', 'PeopleController.getFavorites')

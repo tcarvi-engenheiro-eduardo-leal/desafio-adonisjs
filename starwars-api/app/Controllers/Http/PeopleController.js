@@ -4,6 +4,7 @@ const axios = require('axios')
 const Redis = require('./redis-client')
 
 class PeopleController {
+
   async index({ response }) {
     try {
       const { data } = await axios.get('https://swapi.dev/api/people/')
@@ -19,6 +20,16 @@ class PeopleController {
       return response.json(data)
     } catch (error) {
       return response.status(500).json({ error: 'Unable to fetch data from Star Wars API' })
+    }
+  }
+
+  async search({ request, response }) {
+    try {
+      const { name } = request.qs()  // Obtém o parâmetro 'name' da query string
+      const { data } = await axios.get(`https://swapi.dev/api/people/?search=${name}`) // Usa o parâmetro 'search' para buscar pelo nome
+      return response.json(data)
+    } catch (error) {
+      return response.status(500).json({ error: 'Unable to search data from Star Wars API' })
     }
   }
 
