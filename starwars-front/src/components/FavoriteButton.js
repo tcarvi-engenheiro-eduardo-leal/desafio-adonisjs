@@ -1,4 +1,3 @@
-// src/components/FavoriteButton.js
 import React from 'react';
 
 const FavoriteButton = ({ characterId, onFavorite }) => {
@@ -7,7 +6,7 @@ const FavoriteButton = ({ characterId, onFavorite }) => {
   };
 
   return (
-    <button onClick={handleFavorite}>Add to Favorites</button>
+    <button onClick={handleFavorite}>Favoritar</button>
   );
 };
 

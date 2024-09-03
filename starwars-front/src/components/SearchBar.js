@@ -1,4 +1,3 @@
-// src/components/SearchBar.js
 import React, { useState } from 'react';
 
 const SearchBar = ({ onSearch }) => {
@@ -16,7 +15,7 @@ const SearchBar = ({ onSearch }) => {
         onChange={(e) => setQuery(e.target.value)}
         placeholder="Search for a character"
       />
-      <button onClick={handleSearch}>Search</button>
+      <button onClick={handleSearch}>Procurar</button>
     </div>
   );
 };
