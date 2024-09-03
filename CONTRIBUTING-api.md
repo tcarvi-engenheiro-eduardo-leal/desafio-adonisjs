@@ -117,9 +117,6 @@ module.exports = PeopleController
 ```
 
 ## Crie o arquivo app/Controller/Http/redis-client.js e adicione a seguinte configuração:
-```bash
-mkdir -p app/Controller/Http
-```
 
 ```bash
 touch app/Controller/Http/redis-client.js
