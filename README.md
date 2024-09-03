@@ -95,5 +95,15 @@ npm run start
 ```  
 
 ## Utilização
-- Não terminei ainda a ligação entre o Front e o Back, pois passei a receber erro de CORS e ainda não configurei redis local.
+- Acesse endpoints:
+    - http://127.0.0.1:3333/people
+    - http://127.0.0.1:3333/people/1
+    - http://127.0.0.1:3333/people/2
+    - http://127.0.0.1:3333/people/3
+    - http://127.0.0.1:3333/people/4
+- Não terminei ainda a ligação entre o Front, o REST-API o Back, pois:
+    -  passei a receber erro de CORS
+    -  ainda não configurei redis local
+    -  ainda não criei os modelos dos dados de Favoritos a serem gravados no banco de dados local
+    -  e ainda não criei o modelo de dados final dos Personagens.
 - Ainda falta muito a implementar. Comecei a implementação deste projeto na tarde de 1/09/2024.
